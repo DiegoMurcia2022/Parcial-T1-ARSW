@@ -4,9 +4,7 @@ import eci.arsw.covidanalyzer.model.Result;
 import eci.arsw.covidanalyzer.model.ResultType;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
 import java.util.UUID;
-import java.util.concurrent.CopyOnWriteArrayList;
 
 @Service("ICovidAggregateServiceStub")
 public class ICovidAggregateServiceStub implements ICovidAggregateService {

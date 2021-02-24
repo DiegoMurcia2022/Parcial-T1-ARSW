@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class CovidAggregateController {
+
     ICovidAggregateService covidAggregateService;
 
     //TODO: Implemente todos los metodos POST que hacen falta.
