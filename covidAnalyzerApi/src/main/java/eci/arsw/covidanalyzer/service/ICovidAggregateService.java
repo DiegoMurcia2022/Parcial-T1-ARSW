@@ -30,6 +30,4 @@ public interface ICovidAggregateService {
      * @param type
      */
     void upsertPersonWithMultipleTests(UUID id, ResultType type);
-
-
 }
